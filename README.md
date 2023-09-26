@@ -28,9 +28,9 @@ npm install && npm test
 >   0 passing (5ms)
 >   1 failing
 > 
->   1) MigrationRepository
->        "before each" hook for "returns database name":
->      TypeError: Cannot read properties of undefined (reading 'require')
->       at Proxyquire.load (node_modules\proxyquire\lib\proxyquire.js:129:72)
->       at Context.<anonymous> (file:///C:/Projects/springcomp/yo/p/test/migration_repository.spec.js:7:11)
->       at process.processImmediate (node:internal/timers:476:21)
+>   1) MigrationRepository  
+>        "before each" hook for "returns database name":  
+>      TypeError: Cannot read properties of undefined (reading 'require')  
+>       at Proxyquire.load (node_modules\proxyquire\lib\proxyquire.js:129:72)  
+>       at Context.<anonymous> (file:///C:/Projects/springcomp/yo/p/test/migration_repository.spec.js:7:11)  
+>       at process.processImmediate (node:internal/timers:476:21)  
